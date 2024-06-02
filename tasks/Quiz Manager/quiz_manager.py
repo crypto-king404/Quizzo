@@ -45,8 +45,8 @@ class QuizManager:
     
 #     embed_config = {
 #         "model_name": "textembedding-gecko@003",
-#         "project": "quizzify-423703",
-#         "key_file_path": "C:/Users/sohan/OneDrive/Documents/quizify/mission-quizify/authentication.json",
+#         "project": "PROJECT-123",
+#         "key_file_path": "C:/path/to/the/json/authentication.json",
 #         "location": "us-central1"
 #     }
     
@@ -84,9 +84,7 @@ class QuizManager:
 #         screen.empty()
 #         with st.container():
 #             st.header("Generated Quiz Question: ")
-            
-#             # Task 9
-#             ##########################################################
+        
 #             quiz_manager = QuizManager(question_bank)
 
 
@@ -97,19 +95,18 @@ class QuizManager:
 #                 # Unpack choices for radio
 #                 choices = []
 #                 for choice in index_question['choices']: # For loop unpack the data structure
-#                     ##### YOUR CODE HERE #####
 #                     # Set the key from the index question 
 #                     key = choice['key']
 #                     # Set the value from the index question
 #                     value = choice['value']
-#                     ##### YOUR CODE HERE #####
+#          
 #                     choices.append(f"{key}) {value}")
                 
-#                 ##### YOUR CODE HERE #####
+#             
 #                 # Display the question onto streamlit
 #                 st.write(index_question['question'])
 
-#                 ##### YOUR CODE HERE #####
+#         
                 
 #                 answer = st.radio( # Display the radio button with the choices
 #                     'Choose the correct answer',
