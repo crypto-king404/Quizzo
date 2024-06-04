@@ -3,3 +3,16 @@ chromadb
 langchain
 langchain-google-vertexai
 pypdf
+langchain_community
+tempfile
+uuid
+google.auth
+google.oauth2
+google
+google.cloud
+langchain_core
+reportlab
+base64
+google.cloud.storage
+google.cloud.language
+google.cloud.language_v1
