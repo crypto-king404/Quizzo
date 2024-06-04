@@ -36,7 +36,7 @@ if __name__ == "__main__":
     
         screen = st.empty()
         with screen.container():
-            st.markdown("<style>a {color: white;text-decoration: none; transition: color 0.2s;} a:visited {color: white;} a:hover{color: #4156A1; text-decoration: none;}</style><h1 style='text-align: center;'><a href='https://quizzo.streamlit.app' target='_self'>Quizzo</a></h1>", unsafe_allow_html=True)
+            st.markdown("<style>a {color: white;text-decoration: none; transition: color 0.2s;} a:visited {color: white;} a:hover{color: #7D8C1F; text-decoration: none;}</style><h1 style='text-align: center;'><a href='https://quizzo.streamlit.app' target='_self'>Quizzo</a></h1>", unsafe_allow_html=True)
             st.header("Quiz Builder")
             
             # Create a new st.form flow control for Data Ingestion
