@@ -161,6 +161,9 @@ if __name__ == "__main__":
 
                 progress = (st.session_state['question_index'] / len(quiz_manager.questions))
 
+                if st.session_state['question_index'] == len(quiz_manager.questions)-1:
+                    progress = 1.0
+
                 # Display the progress bar
                 st.progress(progress)
                 st.markdown(f'<div style="width: 100%; height: 20px; position: relative;">'
