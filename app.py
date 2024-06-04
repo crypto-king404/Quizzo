@@ -55,7 +55,7 @@ if __name__ == "__main__":
                         chroma_creator.create_chroma_collection()
                             
                         if len(processor.pages) > 0:
-                            st.success(f"Generating {num_questions} question(s) for topic: {topic_input}", icon=":material/pending:")
+                            st.success(f"Generating {num_questions} question(s) for topic: {topic_input}", icon="✅")
                         
                         generator = QuizGenerator(topic_input, num_questions, chroma_creator)
                         question_bank = generator.generate_quiz()
