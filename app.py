@@ -20,7 +20,7 @@ if __name__ == "__main__":
     embed_config = {
         "model_name": "textembedding-gecko@003",
         "project": "quizzify-423703",
-        "key_file_path": "C:/Users/sohan/OneDrive/Documents/Quizzo/Quizzo/authentication.json",
+        "key_file_path": "authentication.json",
         "location": "us-central1"
     }
     
