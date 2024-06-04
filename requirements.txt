@@ -5,5 +5,3 @@ langchain-google-vertexai
 pypdf
 langchain_community
 langchain_core
-reportlab
-base64
