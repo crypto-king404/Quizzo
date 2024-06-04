@@ -167,5 +167,5 @@ if __name__ == "__main__":
                 # Display the progress bar
                 st.progress(progress)
                 st.markdown(f'<div style="width: 100%; height: 20px; position: relative;">'
-                f'<div style="position: absolute; left: {progress * 100}%; top: -20px;">{progress * 100:.0f}%</div>'
+                f'<div style="position: absolute; left: {min(progress * 100, 90)}%; top: -20px;">{progress * 100:.0f}%</div>'
                 f'</div>',unsafe_allow_html=True)
