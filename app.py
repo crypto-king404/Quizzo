@@ -161,7 +161,7 @@ if __name__ == "__main__":
 
                 progress = (st.session_state['question_index'] / len(quiz_manager.questions))
 
-                if st.session_state['question_index'] == len(quiz_manager.questions)-1:
+                if st.session_state['question_index'] == len(quiz_manager.questions)-1 and answer is not None:
                     progress = 1.0
 
                 # Display the progress bar
