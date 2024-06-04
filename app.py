@@ -36,7 +36,7 @@ if __name__ == "__main__":
     
         screen = st.empty()
         with screen.container():
-            st.markdown("<style>a {color: white;text-decoration: none;} a:visited {color: white;} a:hover{color: #cccccc;}</style><h1 style='text-align: center;'><a href='https://quizzo.streamlit.app'>Quizzo</a></h1>", unsafe_allow_html=True)
+            st.markdown("<style>a {color: white;text-decoration: none;} a:visited {color: white;} a:hover{color: ##FFD700; text-decoration: none;}</style><h1 style='text-align: center;'><a href='https://quizzo.streamlit.app'>Quizzo</a></h1>", unsafe_allow_html=True)
             st.header("Quiz Builder")
             
             # Create a new st.form flow control for Data Ingestion
@@ -78,7 +78,7 @@ if __name__ == "__main__":
     elif "display_quiz" in st.session_state and st.session_state["display_quiz"]:
         st.empty()
         with st.container():
-            st.markdown("<style>a {color: white;text-decoration: none;} a:visited {color: white;} a:hover{color: #cccccc;}</style><h1 style='text-align: center;'><a href='https://quizzo.streamlit.app'>Quizzo</a></h1>", unsafe_allow_html=True)
+            st.markdown("<style>a {color: white;text-decoration: none;} a:visited {color: white;} a:hover{color: ##FFD700; text-decoration: none;}</style><h1 style='text-align: center;'><a href='https://quizzo.streamlit.app'>Quizzo</a></h1>", unsafe_allow_html=True)
             st.header(f"Quiz Question {st.session_state['question_index']+1}: ")
             quiz_manager = QuizManager(st.session_state["question_bank"])
             st.session_state["correct_answers"] = 0
