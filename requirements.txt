@@ -6,3 +6,4 @@ pypdf
 langchain_community
 langchain_core
 nltk
+reportlab
