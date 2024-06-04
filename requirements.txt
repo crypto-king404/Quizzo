@@ -4,8 +4,6 @@ langchain
 langchain-google-vertexai
 pypdf
 langchain_community
-google.auth
-google.oauth2
 langchain_core
 reportlab
 base64
