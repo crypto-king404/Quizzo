@@ -12,20 +12,14 @@ class EmbeddingClient:
 
     """
     
-    def __init__(self, model_name, project, location, key_file_path):
+    def __init__(self, model_name, project, location):
         # Initialize the VertexAIEmbeddings client with the given parameters
-        self.client = self._initialize_client(model_name, project, location, key_file_path)
+        self.model = model_name
+        self.project = project
+        self.location = location
+        self.client = VertexAIEmbeddings(model_name, project, location)
 
-
-    def _initialize_client(self, model_name, project, location, key_file_path):
-        # Load the service account key file
-        credentials = service_account.Credentials.from_service_account_file(key_file_path)
-
-        # Initialize the VertexAIEmbeddings client with the provided parameters and credentials
-        client = VertexAIEmbeddings(model_name=model_name, project=project, location=location, credentials=credentials)
-        return client
-        
-
+    
     def embed_query(self, query):
         """
         Uses the embedding client to retrieve embeddings for the given query.
@@ -49,14 +43,13 @@ class EmbeddingClient:
             print("Method embed_documents not defined for the client.")
             return None
 
-if __name__ == "__main__":
-    model_name = "textembedding-gecko@003"
-    project = "quizzify-423703"
-    location = "us-central1"
-    key_file_path = "C:/Users/sohan/OneDrive/Documents/quizify/mission-quizify/authentication.json"
+# if __name__ == "__main__":
+#     model_name = "textembedding-gecko@003"
+#     project = "quizzify-423703"
+#     location = "us-central1"
 
-    embedding_client = EmbeddingClient(model_name, project, location, key_file_path)
-    vectors = embedding_client.embed_query("Hello World!")
-    if vectors:
-        st.write(vectors)
-        print("Successfully used the embedding client!")
+#     embedding_client = EmbeddingClient(model_name, project, location, key_file_path)
+#     vectors = embedding_client.embed_query("Hello World!")
+#     if vectors:
+#         st.write(vectors)
+#         print("Successfully used the embedding client!")
