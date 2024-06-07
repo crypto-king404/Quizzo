@@ -8,3 +8,4 @@ langchain_core
 nltk
 reportlab
 pysqlite3-binary
+google-cloud-storage
