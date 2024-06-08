@@ -12,11 +12,12 @@ class EmbeddingClient:
 
     """
     
-    def __init__(self, model_name, project, location, credentials):
+    def __init__(self, model_name, project, location, credentials_json):
         # Initialize the VertexAIEmbeddings client with the given parameters
-        self.client = self._initialize_client(model_name, project, location, credentials)
+        self.client = self._initialize_client(model_name, project, location, credentials_json)
 
-    def _initialize_client(self, model_name, project, location, credentials):
+    def _initialize_client(self, model_name, project, location, credentials_json):
+        credentials = service_account.Credentials.from_service_account_file(credentials_json)
 
         # Initialize the VertexAIEmbeddings client with the provided parameters and credentials
         client = VertexAIEmbeddings(model_name=model_name, project=project, location=location, credentials=credentials)
