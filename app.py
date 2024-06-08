@@ -19,12 +19,17 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.units import inch
 
 import base64
+from google.oauth2.service_account import Credentials
+
+service_account_info = json.loads(os.getenv("GCP_API_KEY"))
+credentials = Credentials.from_service_account_info(service_account_info)
 
 if __name__ == "__main__":
     
     embed_config = {
         "model_name": "textembedding-gecko@003",
         "project": "quizzo-425513",
+        "credentials":credentials,
         "location": "us-central1"
     }
     
