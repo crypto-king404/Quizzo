@@ -26,7 +26,7 @@ if __name__ == "__main__":
         "model_name": "textembedding-gecko@003",
         "project": "quizzo-425513",
         "location": "us-central1",
-        "credentials_json":json.loads(os.getenv("GCP_API_KEY")),
+        "credentials_json":"authentication.json"
     }
     
     # Add Session State
