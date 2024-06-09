@@ -24,9 +24,9 @@ if __name__ == "__main__":
     
     embed_config = {
         "model_name": "textembedding-gecko@003",
-        "project": "quizzo-425513",
+        "project": "PROJECT_ID",
         "location": "us-central1",
-        "credentials_json":"authentication.json"
+        "key_file_path":"API_KEY_FILE"
     }
     
     # Add Session State
