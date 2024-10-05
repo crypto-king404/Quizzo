@@ -32,12 +32,12 @@ Follow these steps to install and run Quizzo on your local machine:
     ```bash
     pip install -r requirements.txt
     ```
-<br>
+
 ## 🔑 API Keys and Configuration
 
 - Obtain your Google Cloud API credentials and save the JSON key file.
-- Update the `app.py` file with the correct path to your service account key file.
-<br>
+- Update the `app.py` file with the correct path to your service account key file.<br>
+
 ## 📚 Usage
 
 To start your learning journey with Quizzo, follow these simple steps:
