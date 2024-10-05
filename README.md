@@ -52,7 +52,7 @@ To start your learning journey with Quizzo, follow these simple steps:
 
 ## 📷 Screenshots
 
-![Quizzo Screenshot](path/to/screenshot.png)
+![Quizzo Screenshot](https://media.licdn.com/dms/image/v2/D4E2DAQHnpyrCp5quCg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719365379052?e=1728759600&v=beta&t=6Zh54URsppPYxeUD517XVsvKQZjHzbd4sSE-qiufHPw)
 
 ## 🧪 Testing
 
