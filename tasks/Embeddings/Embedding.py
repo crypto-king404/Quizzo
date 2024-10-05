@@ -46,14 +46,3 @@ class EmbeddingClient:
         except AttributeError:
             print("Method embed_documents not defined for the client.")
             return None
-
-# if __name__ == "__main__":
-#     model_name = "textembedding-gecko@003"
-#     project = "quizzify-423703"
-#     location = "us-central1"
-
-#     embedding_client = EmbeddingClient(model_name, project, location, key_file_path)
-#     vectors = embedding_client.embed_query("Hello World!")
-#     if vectors:
-#         st.write(vectors)
-#         print("Successfully used the embedding client!")
