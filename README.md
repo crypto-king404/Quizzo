@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d98b85da-9629-41b9-93c9-8c0e90575852)# 🎉 Quizzo: Your AI-Powered Quiz Companion
+# 🎉 Quizzo: Your AI-Powered Quiz Companion
 
 Quizzo is an innovative assessment and quiz tool that harnesses the power of AI to enhance learning and understanding across various subjects. By dynamically generating quizzes based on your provided documents, Quizzo offers a personalized learning experience that helps reinforce knowledge and improves retention.
 <br><br>
@@ -53,8 +53,8 @@ To start your learning journey with Quizzo, follow these simple steps:
 ## 📷 Screenshots
 
 ![Quizzo](https://media.licdn.com/dms/image/v2/D4E2DAQElCShCLw082Q/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719365658248?e=1728759600&v=beta&t=a8nf28Sg4OR7rSdHNrQjWcwOA2pBf8mi77xQoZ4zqHg)
-[Generated Quiz Question](https://media.licdn.com/dms/image/v2/D4E2DAQEfnZ_HBZPSXw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719372231522?e=1728759600&v=beta&t=mqu5J7Yt3QDzmHjel-oSFaDkKjcV1ln4OinlAB5VmXg)
-[Generated Question with Progress](https://media.licdn.com/dms/image/v2/D4E2DAQFV6lOA2GoKRA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719365769305?e=1728759600&v=beta&t=mkvm3M5g98dVBQ6KjEk3L6OSw9I_Tyjaa4qMzb07_1k)
+![Generated Quiz Question](https://media.licdn.com/dms/image/v2/D4E2DAQEfnZ_HBZPSXw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719372231522?e=1728759600&v=beta&t=mqu5J7Yt3QDzmHjel-oSFaDkKjcV1ln4OinlAB5VmXg)
+![Generated Question with Progress](https://media.licdn.com/dms/image/v2/D4E2DAQFV6lOA2GoKRA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719365769305?e=1728759600&v=beta&t=mkvm3M5g98dVBQ6KjEk3L6OSw9I_Tyjaa4qMzb07_1k)
 
 
 ## 🤝 Contributing
