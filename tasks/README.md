@@ -1,4 +1,4 @@
-# `tasks` Directory
+# `tasks`
 
 ## Overview
 
