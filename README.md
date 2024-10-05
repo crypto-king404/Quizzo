@@ -49,22 +49,22 @@ To start your learning journey with Quizzo, follow these simple steps:
 2. **Upload Your Document**: Choose a textbook, scholarly paper, or any other document you wish to create a quiz from.
 3. **Generate Your Quiz**: The tool will analyze the content and generate a tailored quiz for you.
 4. **Take the Quiz**: Answer the questions and receive instant feedback along with insightful explanations.
-<br>
+
 ## 📷 Screenshots
 
 ![Quizzo Screenshot](path/to/screenshot.png)
-<br>
+
 ## 🧪 Testing
 
 To run tests, execute:
 ```bash
 pytest
 ```
-<br>
+
 ## 🤝 Contributing
 
 We welcome your contributions to make Quizzo even better! Whether you have ideas for new features, suggestions for improvement, or have found issues, we’d love to hear from you.
-<br>
+
 ### How to Contribute
 
 1. **Fork the repository**.
@@ -82,12 +82,12 @@ We welcome your contributions to make Quizzo even better! Whether you have ideas
     git push origin feature-branch
     ```
 6. **Open a pull request**.
-<br>
+
 ## 🗺️ Roadmap
 
 - [ ] Add support for more document formats (e.g., Word, HTML).
 - [ ] Implement user accounts for saving progress.
-<br>
+
 ## ❓ FAQs
 
 **Q: What document formats are supported?**  
@@ -96,7 +96,7 @@ A: Currently, Quizzo supports PDF files for document ingestion.
 ## 🙏 Acknowledgments
 
 - Thank you to the developers of Streamlit and LangChain for their amazing libraries!
-<br>
+
 ## 📄 License
 
 Quizzo is licensed under the [MIT License](LICENSE).
