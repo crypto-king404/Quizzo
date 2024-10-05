@@ -10,12 +10,12 @@ Quizzo is an innovative assessment and quiz tool that harnesses the power of AI 
 - **Tailored Learning Experience**: Focus your quizzes on specific topics or areas of interest for a customized educational journey.
 - **User-Friendly Interface**: Enjoy an intuitive and engaging platform that makes learning fun and accessible for everyone.
 
-<br>
+
 ## 🛠️ Getting Started
 
 - Ensure you have Python 3.7 or higher installed.
 - Set up a Google Cloud account and enable the Vertex AI API.
-<br>
+
 ## 🔧 Installation
 
 Follow these steps to install and run Quizzo on your local machine:
