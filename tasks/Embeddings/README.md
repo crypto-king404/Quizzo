@@ -2,8 +2,7 @@
 
 ## Overview
 
-`Embedding.py` is a Python module designed to interface with Google Cloud's Vertex AI for generating text embeddings. It provides an easy-to-use client class, `EmbeddingClient`, that can connect to Vertex AI using service account credentials and generate embeddings for text queries and documents. The module is particularly useful for applications that require text similarity calculations, document clustering, or any other natural language processing tasks that benefit from vector representations.
-
+`Embedding.py` is a Python module designed to interface with Google Cloud's Vertex AI for generating text embeddings. It provides an easy-to-use client class, `EmbeddingClient`, that can connect to Vertex AI using service account credentials and generate embeddings for text queries and documents.
 ### Table of Contents
 1. [Installation](#installation)
 2. [Classes and Methods](#classes-and-methods)
