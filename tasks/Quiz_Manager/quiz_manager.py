@@ -13,7 +13,7 @@ class QuizManager:
         """
         Initializes the QuizManager class with a list of quiz questions.
         """
-        ##### YOUR CODE HERE #####
+   
         self.questions = questions
         self.total_questions = len(questions)
 
