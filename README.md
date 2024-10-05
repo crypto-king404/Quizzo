@@ -53,9 +53,7 @@ To start your learning journey with Quizzo, follow these simple steps:
 ## 📷 Screenshots
 
 ![Quizzo](https://media.licdn.com/dms/image/v2/D4E2DAQElCShCLw082Q/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719365658248?e=1728759600&v=beta&t=a8nf28Sg4OR7rSdHNrQjWcwOA2pBf8mi77xQoZ4zqHg)
-<br>
 [Generated Quiz Question](https://media.licdn.com/dms/image/v2/D4E2DAQEfnZ_HBZPSXw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719372231522?e=1728759600&v=beta&t=mqu5J7Yt3QDzmHjel-oSFaDkKjcV1ln4OinlAB5VmXg)
-<br>
 [Generated Question with Progress](https://media.licdn.com/dms/image/v2/D4E2DAQFV6lOA2GoKRA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719365769305?e=1728759600&v=beta&t=mkvm3M5g98dVBQ6KjEk3L6OSw9I_Tyjaa4qMzb07_1k)
 
 
