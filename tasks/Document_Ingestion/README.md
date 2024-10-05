@@ -2,7 +2,7 @@
 
 ## Overview
 
-`Document_Ingestion.py` is a Python module designed for processing PDF documents using the `PyPDFLoader` from the `langchain_community` library. The module integrates with Streamlit to provide an interactive file uploader interface, allowing users to upload multiple PDFs, extract their pages, and store them for downstream processing. It is ideal for applications that require extracting and analyzing content from large PDF documents.
+`Document_Ingestion.py` is a Python module designed for processing PDF documents using the `PyPDFLoader` from the `langchain_community` library. The module integrates with Streamlit to provide an interactive file uploader interface, allowing users to upload multiple PDFs, extract their pages, and store them for downstream processing. 
 
 ### Table of Contents
 1. [Installation](#installation)
