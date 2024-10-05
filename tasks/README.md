@@ -54,10 +54,10 @@ tasks/
 
 ### Installation
 
-Before running the application, ensure you have the following dependencies installed:
+Before running the application, ensure you have the required dependencies installed in the `requirements.txt`:
 
 ```bash
-pip install streamlit langchain google-auth google-auth-oauthlib google-auth-httplib2 langchain_google_vertexai reportlab
+pip install -r requirements.txt
 ```
 
 ### Usage
