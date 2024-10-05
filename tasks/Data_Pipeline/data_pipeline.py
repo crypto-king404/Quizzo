@@ -18,8 +18,8 @@ class ChromaCollectionCreator:
         :param processor: An instance of DocumentProcessor that has processed documents.
         :param embeddings_config: An embedding client for embedding documents.
         """
-        self.processor = processor      # This will hold the DocumentProcessor from Task 3
-        self.embed_model = embed_model  # This will hold the EmbeddingClient from Task 4
+        self.processor = processor      # This will hold the DocumentProcessor 
+        self.embed_model = embed_model  # This will hold the EmbeddingClient 
         self.db = None                  # This will hold the Chroma collection
     
     def create_chroma_collection(self):
@@ -68,26 +68,3 @@ class ChromaCollectionCreator:
         Returns the Chroma collection as a retriever for use in quiz generator
         """
         return self.query_chroma_collection
-
-#Test if the app is working
-# if __name__ == "__main__":
-#     processor = DocumentProcessor() # Initialize from Task 3
-#     processor.ingest_documents()
-    
-#     embed_config = {
-#         "model_name": "textembedding-gecko@003",
-#         "project": "quizzify-423703",
-#         "key_file_path": "C:/Users/sohan/OneDrive/Documents/quizify/mission-quizify/authentication.json",
-#         "location": "us-central1"
-#     }
-    
-#     embed_client = EmbeddingClient(**embed_config) # Initialize from Task 4
-    
-#     chroma_creator = ChromaCollectionCreator(processor, embed_client)
-    
-#     with st.form("Load Data to Chroma"):
-#         st.write("Select PDFs for Ingestion, then click Submit")
-        
-#         submitted = st.form_submit_button("Submit")
-#         if submitted:
-#             chroma_creator.create_chroma_collection()
