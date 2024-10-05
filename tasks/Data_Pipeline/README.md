@@ -2,7 +2,7 @@
 
 ## Overview
 
-`data_pipeline.py` is a Python module designed to create and manage a Chroma collection for efficient document search and retrieval. The module leverages LangChain's document processing and embedding functionalities to store and query document embeddings. This script is primarily used for building a collection of documents that can be easily queried for similarity searches, making it ideal for applications like semantic search and recommendation systems.
+`data_pipeline.py` is a Python module designed to create and manage a Chroma collection for efficient document search and retrieval. The module leverages LangChain's document processing and embedding functionalities to store and query document embeddings. This script is primarily used for building a collection of documents that can be easily queried for similarity searches.
 
 ### Table of Contents
 1. [Installation](#installation)
