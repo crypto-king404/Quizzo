@@ -1,7 +1,7 @@
 # 🎉 Quizzo: Your AI-Powered Quiz Companion
 
 Quizzo is an innovative assessment and quiz tool that harnesses the power of AI to enhance learning and understanding across various subjects. By dynamically generating quizzes based on your provided documents, Quizzo offers a personalized learning experience that helps reinforce knowledge and improves retention.
-
+<br><br>
 ## 🚀 Features
 
 - **Instant Feedback**: Get immediate feedback on your answers to strengthen your understanding and boost confidence.
@@ -10,6 +10,7 @@ Quizzo is an innovative assessment and quiz tool that harnesses the power of AI 
 - **Tailored Learning Experience**: Focus your quizzes on specific topics or areas of interest for a customized educational journey.
 - **User-Friendly Interface**: Enjoy an intuitive and engaging platform that makes learning fun and accessible for everyone.
 
+<br><br>
 ## 🛠️ Getting Started
 
 - Ensure you have Python 3.7 or higher installed.
